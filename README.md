@@ -39,124 +39,18 @@ Mintaképpen egy beadandó feladat elérhető lesz ebben a repository-ban.
 
 # Heti beosztás
 
-<table style="width:100%">
-  <tr>
-    <th>Hét</th>
-    <th>Előadás</th>
-    <th>Gyakorlat</th>
-  </tr>
-  <tr>
-    <th>1</th>
-    <td>
-     Követelmények ismertetése, alapvető, programozással kapcsolatos fogalmak tisztázása (szoftverfejlesztés, tesztelés, algoritmizálás, programozási nyelvek, forráskód, gépi kód, köztes kód, fordító, interpreter, IDE, syntax highlight, stb.), valamint korábbi tapasztalatok felmérése.
-    </td>
-    <td>
-     Fejlesztői környezet telepítése (vscode), alapvető szövegszerkesztési technikák, shortcutok megismerése. GitHub regisztráció, első repository létrehozása, `README.md` szerkesztése, GitHub alapvető használatának elsajátítása (1 branch, 1 user), fontosabb felületek megismerése (code / commits). vscode és GitHub összekötése.
-    </td>
-  </tr>
-  <tr>
-    <th>2</th>
-    <td>Elágazás és egyszerű ciklus mint vezérlési adatszerkezet megismerése, szöveges algoritmizálás, pszeudo kód megismerése absztrakt magas szintű utasításokon mellett.</td>
-    <td>Alapvető vezérlési szerkezetek gyakorlása életszerű példákon, pszeudo kód szinten.</td>
-  </tr>
-  <tr>
-   <th>3</th>
-   <td>
-    Absztraktabb példák, változó fogalmának bevezetése. Egyerű bekérés, kiiratás (egész változókra szorítkozva) és alapvető vezérlési szerkezetek használata továbbra is pszeudo kód szintjén. 
-   </td>
-   <td>
-    Példákon keresztül gyakorlás. Először oktató által adott kód végrehajtása, majd saját kód tervezése.
-   </td>
-  </tr>
-  <tr>
-   <th>4</th>
-   <td>
-    Összetettebb feladatok a megadott eszközökkel, alap minták, pl.: minimumkeresés, bekérés adott elemig, stb. 2-3 egymásba ágyazott blokk szintjéig.
-   </td>
-   <td>
-    Példákon keresztül gyakorlás. Először oktató által adott kód végrehajtása, majd saját kód tervezése.
-   </td>
-  </tr>
-  <tr>
-   <th>5</th>
-   <td>
-    Python legalapabb nyelvi elemeinek ismertetése, annak használata. Pszeudo kód és python közötti megfeleltetés, különbségek. 
-   </td>
-   <td>
-    Korábbi példák megvalósítása python nyelven.
-   </td>
-  </tr>
-  <tr>
-   <th>6</th>
-   <td>
-    Listák, alapvető függvnyeik, alap programozási feladatok listákkal, pl: minimumkeresés, Fibonacci sorozat felépítése, buborékrendezés.
-   </td>
-   <td>
-    Listákat igénylő feladatokon keresztüli gyakorlás. 
-   </td>
-  </tr>
-  <tr>
-   <th>7</th>
-   <td>
-    További nyelvi elemek bevezetése, pl `for ... in`, `break`, splicing stb.
-    Logikai és lebegőpontos változók, változó típusok, konvertálás.
-   </td>
-   <td>
-    Néhány korábbi kód átírása, lerövidítése a megismert új eszközökkel, valamint új feladatokon gyakorlás
-   </td>
-  </tr>
-  <tr>
-   <th>8</th>
-   <td>
-    String típus, egyszerű szöveges fájlkezelés.
-   </td>
-   <td>
-    ZH + Gyakorlás feladatokkal.
-   </td>
-  </tr>
-  <tr>
-   <th>9</th>
-   <td>
-    Függvények. Kód absztrakt megtervezése függvények szintjén egy bonyolultabb feladat példáján. 
-   </td>
-   <td>
-    Fügvények gyakorlása, korábbi feladatok újrastruktúrálása.
-   </td>
-  </tr>
-  <tr>
-   <th>10</th>
-   <td>
-    Paraméterátadás, immutability, pass-by-value-of-reference megértése,tuple-ök.
-   </td>
-   <td>
-    Olyan példákkal is gyakorlás, ahol listák is átadásra kerülnek, tipikus pitfall-ok hibák elkerülése.
-   </td>
-  </tr>
-  <tr>
-   <th>11</th>
-   <td>
-    Dictionary, tipikus alkalmazási esetei.
-   </td>
-   <td>
-    Gyakorlás olyan példákon, amik dictionary nélkül nagyon körülményesek lennének.
-   </td>
-  </tr>
-  <tr>
-   <th>12</th>
-   <td>
-    További praktikus python nyelvi elemek megismerése, pl.: listák másolása, JSON formátum és parzolás, további hasznos beépített függvények, stb.
-   </td>
-   <td>
-    Gyakorlás ZH-ra.
-   </td>
-  </tr>
-  <tr>
-   <th>13</th>
-   <td>
-    Fák, gráfok, implementálásuk pythonban, egyszerűbb algoritmusok, bejárások. 
-   </td>
-   <td>
-    ZH + beadandó témák egyeztetése.
-   </td>   
-  </tr>
-</table>
+| Hét | Előadás | Gyakorlat |
+|-----|---------|-----------|
+|1| Követelmények ismertetése, alapvető, programozással kapcsolatos fogalmak tisztázása (szoftverfejlesztés, tesztelés, algoritmizálás, programozási nyelvek, forráskód, gépi kód, köztes kód, fordító, interpreter, IDE, syntax highlight, stb.), valamint korábbi tapasztalatok felmérése. | Fejlesztői környezet telepítése (vscode), alapvető szövegszerkesztési technikák, shortcutok megismerése. GitHub regisztráció, első repository létrehozása, `README.md` szerkesztése, GitHub alapvető használatának elsajátítása (1 branch, 1 user), fontosabb felületek megismerése (code / commits). vscode és GitHub összekötése. |
+| 2 | Elágazás és egyszerű ciklus mint vezérlési adatszerkezet megismerése, szöveges algoritmizálás, pszeudo kód megismerése absztrakt magas szintű utasításokon mellett. | Alapvető vezérlési szerkezetek gyakorlása életszerű példákon, pszeudo kód szinten.|
+| 3 | Absztraktabb példák, változó fogalmának bevezetése. Egyerű bekérés, kiiratás (egész változókra szorítkozva) és alapvető vezérlési szerkezetek használata továbbra is pszeudo kód szintjén.  | Példákon keresztül gyakorlás. Először oktató által adott kód végrehajtása, majd saját kód tervezése.|
+| 4 | Összetettebb feladatok a megadott eszközökkel, alap minták, pl.: minimumkeresés, bekérés adott elemig, stb. 2-3 egymásba ágyazott blokk szintjéig. | Példákon keresztül gyakorlás. Először oktató által adott kód végrehajtása, majd saját kód tervezése.|
+| [5](05/) | Python legalapabb nyelvi elemeinek ismertetése, annak használata. Pszeudo kód és python közötti megfeleltetés, különbségek.  | Korábbi példák megvalósítása python nyelven.|
+| 6 | Listák, alapvető függvnyeik, alap programozási feladatok listákkal, pl: minimumkeresés, Fibonacci sorozat felépítése, buborékrendezés. | Listákat igénylő feladatokon keresztüli gyakorlás. |
+| 7 | További nyelvi elemek bevezetése, pl `for ... in`, `break`, splicing stb. | Néhány korábbi kód átírása, lerövidítése a megismert új eszközökkel, valamint új feladatokon gyakorlás|
+| 8 | String típus, egyszerű szöveges fájlkezelés. | ZH + Gyakorlás feladatokkal.|
+| 9 | Függvények. Kód absztrakt megtervezése függvények szintjén egy bonyolultabb feladat példáján.  | Fügvények gyakorlása, korábbi feladatok újrastruktúrálása.|
+| 10 | Paraméterátadás, immutability, pass-by-value-of-reference megértése,tuple-ök. | Olyan példákkal is gyakorlás, ahol listák is átadásra kerülnek, tipikus pitfall-ok hibák elkerülése.|
+| 11 | Dictionary, tipikus alkalmazási esetei. | Gyakorlás olyan példákon, amik dictionary nélkül nagyon körülményesek lennének.|
+| 12 | További praktikus python nyelvi elemek megismerése, pl.: listák másolása, JSON formátum és parzolás, további hasznos beépített függvények, stb. | Gyakorlás ZH-ra.|
+| 13 | Fák, gráfok, implementálásuk pythonban, egyszerűbb algoritmusok, bejárások.  | ZH + beadandó témák egyeztetése.|

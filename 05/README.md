@@ -46,7 +46,7 @@ Amíg (szám≠1)
 Aminek a python megvalósítása:
 
 ```python
-num=input()
+num=int(input())
 while num!=1:
     print(num)
     if num%2==0:
