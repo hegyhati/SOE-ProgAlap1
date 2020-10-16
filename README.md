@@ -45,9 +45,10 @@ Mintaképpen egy beadandó feladat elérhető lesz ebben a repository-ban.
 | 2 | Elágazás és egyszerű ciklus mint vezérlési adatszerkezet megismerése, szöveges algoritmizálás, pszeudo kód megismerése absztrakt magas szintű utasításokon mellett. | Alapvető vezérlési szerkezetek gyakorlása életszerű példákon, pszeudo kód szinten.|
 | 3 | Absztraktabb példák, változó fogalmának bevezetése. Egyerű bekérés, kiiratás (egész változókra szorítkozva) és alapvető vezérlési szerkezetek használata továbbra is pszeudo kód szintjén.  | Példákon keresztül gyakorlás. Először oktató által adott kód végrehajtása, majd saját kód tervezése.|
 | [4](04/) | Python legalapabb nyelvi elemeinek ismertetése, annak használata. Pszeudo kód és python közötti megfeleltetés, különbségek.  | Korábbi példák megvalósítása python nyelven.|
-| 5 | Listák, alapvető függvnyeik, alap programozási feladatok listákkal, pl: minimumkeresés, Fibonacci sorozat felépítése, buborékrendezés. | Listákat igénylő feladatokon keresztüli gyakorlás. |
-| [6](06/) | További nyelvi elemek bevezetése, pl `for ... in`, `break`, splicing stb. | Néhány korábbi kód átírása, lerövidítése a megismert új eszközökkel, valamint új feladatokon gyakorlás|
-| 8 | String típus, egyszerű szöveges fájlkezelés. | ZH + Gyakorlás feladatokkal.|
+| [5](05/) | Listák, alapvető függvnyeik, alap programozási feladatok listákkal, pl: minimumkeresés, Fibonacci sorozat felépítése, buborékrendezés. | Listákat igénylő feladatokon keresztüli gyakorlás. |
+| [6](06/) | További nyelvi elemek bevezetése, pl `range`, `for ... in`, `break`, list slicing, főbb típusok stb. | Néhány korábbi kód átírása, lerövidítése a megismert új eszközökkel, valamint új feladatokon gyakorlás|
+| 7 | Egyszerű szöveges fájlkezelés. | Gyakorlás feladatokkal.|
+| 8 | ZH | |
 | 9 | Függvények. Kód absztrakt megtervezése függvények szintjén egy bonyolultabb feladat példáján.  | Fügvények gyakorlása, korábbi feladatok újrastruktúrálása.|
 | 10 | Paraméterátadás, immutability, pass-by-value-of-reference megértése,tuple-ök. | Olyan példákkal is gyakorlás, ahol listák is átadásra kerülnek, tipikus pitfall-ok hibák elkerülése.|
 | 11 | Dictionary, tipikus alkalmazási esetei. | Gyakorlás olyan példákon, amik dictionary nélkül nagyon körülményesek lennének.|

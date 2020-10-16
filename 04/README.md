@@ -1,4 +1,4 @@
-# [Python](https://python.org) nyelv története, főbb tulajdonságai
+# [Python](https://python.org) nyelv főbb tulajdonságai
 
  - Magas szintű, általános célú programozási nyelv.
  - Alapvetően interpretált nyelv.
@@ -6,6 +6,8 @@
  - Több programozási paradigmát is támogat: procedurális, objektum-orientált, funkcionális.
  - Gazdag alapértelmezett modulkönyvtár.
  - 40 éves nyelv, jelenleg a 3-as változat támogatott, mely visszafele nem kompatibilis a 2-es (2.7.18-as) változattal
+
+Ebből néhányról pár szó most, a többi majd bővebben ki lesz fejtve később.
 
 ### Magas szintű nyelv
 Nem hardverhez közeli utasítások az alapvető építőkövek (pl.: regiszterben lévő érték növelése adott memóriacímen található értékkel), hanem magasabb szintűek (változó értékének növelése másik változóval), valamint adottak magas szintű vezérlési szekezetek, összetett adattípusok, stb.
