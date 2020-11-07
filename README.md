@@ -48,9 +48,11 @@ Mintaképpen egy beadandó feladat elérhető lesz ebben a repository-ban.
 | [5](05/) | Listák, alapvető függvnyeik, alap programozási feladatok listákkal, pl: minimumkeresés, Fibonacci sorozat felépítése, buborékrendezés. | Listákat igénylő feladatokon keresztüli gyakorlás. |
 | [6](06/) | További nyelvi elemek bevezetése, pl `range`, `for ... in`, `break`, list slicing, főbb típusok stb. | Néhány korábbi kód átírása, lerövidítése a megismert új eszközökkel, valamint új feladatokon gyakorlás|
 | [7](07/) | Függvények alapjai | Okt. 23.  miatt szünet |
-| 8 | **ZH** | Fügvények gyakorlása, korábbi feladatok újrastruktúrálása. |
-| 9 | Egyszerű szöveges fájlkezelés. | |
-| 10 | Paraméterátadás, immutability, pass-by-value-of-reference megértése,tuple-ök. | Olyan példákkal is gyakorlás, ahol listák is átadásra kerülnek, tipikus pitfall-ok hibák elkerülése.|
-| 11 | Dictionary, tipikus alkalmazási esetei. | Gyakorlás olyan példákon, amik dictionary nélkül nagyon körülményesek lennének.|
-| 12 | További praktikus python nyelvi elemek megismerése, pl.: listák másolása, JSON formátum és parzolás, további hasznos beépített függvények, stb. | Gyakorlás ZH-ra.|
-| 13 | Fák, gráfok, implementálásuk pythonban, egyszerűbb algoritmusok, bejárások.  | ZH + beadandó témák egyeztetése.|
+| [8](08/) | **ZH**, scope, referenciák, pass-by-reference-value, immutability | Gyakorlás  |
+| [9](09/) |  Dictionary és Tupple, összetett adatszerkezetek egymásba ágyazása | Gyakorlás az új adattípusokkal, adatok lemodellezéséhez helyes típusok kiválasztása |
+
+
+További tervezett témák:
+ - egyszerű szöveges fájlkezelés
+ - JSON formátum
+ - egyszerűbb gráfalgoritmusok
