@@ -51,7 +51,9 @@ Mintaképpen egy beadandó feladat elérhető lesz ebben a repository-ban.
 | [8](08/) | **ZH**, scope, referenciák, pass-by-reference-value, immutability | Gyakorlás  |
 | [9](09/) |  Dictionary és Tupple, összetett adatszerkezetek egymásba ágyazása | Gyakorlás az új adattípusokkal, adatok lemodellezéséhez helyes típusok kiválasztása |
 | [10](10/) |  Pythontutor, fájlkezelés, pickle, JSON | Egyszerű, adatmenedzselő programok, JSON "adatbázissal" |
-
+| [11](11/) |  Minta, gyakorlás beadandóhoz |  |
 
 További tervezett témák:
+ - try-except
+ - format string
  - egyszerűbb gráfalgoritmusok
