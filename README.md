@@ -53,8 +53,4 @@ Mintaképpen egy beadandó feladat elérhető lesz ebben a repository-ban.
 | [10](10/) |  Pythontutor, fájlkezelés, pickle, JSON | Egyszerű, adatmenedzselő programok, JSON "adatbázissal" |
 | [11](11/) |  Minta, gyakorlás beadandóhoz |  |
 | [12](12/) |  Format string, random, modulokba szerezés | |
-
-További tervezett témák:
- - try-except
- - egyszerűbb gráfalgoritmusok
- - fejlesztői dokumentáció
+| [13](13/) |  Type hinting, kód dokumentálás pdoc-kal | |
