@@ -1,7 +1,5 @@
 from typing import Tuple, List, Dict
 
-"""Overall comment"""
-
 player1 = "⨯"
 """Character used for Player 1"""
 
@@ -28,7 +26,7 @@ def get_character(moves:GameState, position:Position)->str:
     """Returns the character of a player or blank
 
     Args:
-        moses (GameState): the current state of the game
+        moves (GameState): the current state of the game
         position (Position): the position to be checked
 
     Returns:
@@ -58,7 +56,7 @@ def box(moves:GameState)->Tuple[int,int,int,int]:
     Returns:
         Tuple[int,int,int,int]: smallest x coordinate, smallest y coordinate, largest x coordinate,  largest y coordinate. Returns `(0,0,0,0)` if no moves are made yet.
     """
-    pass
+    pass       
 
 def print_game(moves:GameState) -> None:
     """Prints out the game state in a simple way.
@@ -132,4 +130,4 @@ def check_win(moves:GameState, player:str)->bool:
 def game():
     """Starts a game until 5 in a row is found, and announces the result.
     """
-    pass
+    pass      

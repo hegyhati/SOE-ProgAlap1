@@ -1,7 +1,5 @@
 from typing import Tuple, List, Dict
 
-"""Overall comment"""
-
 player1 = "⨯"
 """Character used for Player 1"""
 
@@ -28,16 +26,15 @@ def get_character(moves:GameState, position:Position)->str:
     """Returns the character of a player or blank
 
     Args:
-        moses (GameState): the current state of the game
+        moves (GameState): the current state of the game
         position (Position): the position to be checked
 
     Returns:
         str: player1, player2 or blank
     """
-    for pos in moves[player1]:
-        if pos==position: return player1
-    for pos in moves[player2]:
-        if pos==position: return player2
+    for player in [player1,player2]:
+        for pos in moves[player]:
+            if pos==position: return player
     return blank
 
 
@@ -78,10 +75,11 @@ def print_game(moves:GameState) -> None:
         moves (GameState): the current state of the game
     """
     (minx,miny,maxx,maxy)=box(moves)
-    for x in range(minx-1,maxx+2):
-        for y in range(miny-1,maxy+2):
-            print(get_character(moves,(x,y)), end="")
-        print("")
+    for y in range(miny-1,maxy+2):
+        for x in range(minx-1,maxx+2):
+            print( get_character(moves,(x,y)), end="" )
+        print()
+
 
 
 def input_position() -> Position:
@@ -90,7 +88,7 @@ def input_position() -> Position:
     Returns:
         Position: An `(x,y)` pair of coordinates.
     """
-    return (int(input("X coordinate: ")),int(input("Y coordinate: ")))
+    return (int(input("X position: ")),int(input("Y position: ")))
 
 def make_move(moves:GameState, player:str) -> None:
     """Makes the next move with the given player. 
@@ -101,15 +99,15 @@ def make_move(moves:GameState, player:str) -> None:
         moves (GameState): the current state of the game
         player (str): the character representation of the player
     """
-    print("Please enter the new position for {}.".format(player))
-    while True:
-        new_position=input_position()
-        if is_occupied(moves,new_position):
-            print("This position is already occupied, please enter another one.")
-        else:
-            moves[player].append(new_position)
-            print("Thanks.")
-            return
+    print("New move for {}:".format(player))
+    new_move=input_position()
+    while is_occupied(moves,new_move):
+        print("Place already taken, provide another position.")
+        new_move=input_position()
+    print("Thanks")
+    moves[player].append(new_move)
+
+
 
 def get_position(position:Position, direction:Tuple[int,int], step:int)->Position:
     """Returns a new position, that can be reached from the given position by jumping in the given direction the given times.
@@ -163,10 +161,9 @@ def check_win(moves:GameState, player:str)->bool:
 def game():
     """Starts a game until 5 in a row is found, and announces the result.
     """
-    moves = {player1:[],player2:[]}
-    winner = None
-
-    while winner == None:
+    moves={player1:[],player2:[]}
+    winner=None
+    while winner==None:
         for player in [player1,player2]:
             print_game(moves)
             make_move(moves,player)
